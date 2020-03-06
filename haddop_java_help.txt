@@ -1,0 +1,7 @@
+
+
+Cria JAVA_HOME no linux
+export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
+
+Cria hadoop home no linux
+export HADOOP_HOME=/media/eric/94eece62-bc22-4a7b-b409-ee9cf086d606/eric/hadoop-3.1.1
